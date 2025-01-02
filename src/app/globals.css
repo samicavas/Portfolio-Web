@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 2s steps(40, end) forwards;
+}
+
+.slide-up {
+  opacity: 0;
+  animation: slideUp 0.8s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.delay-2 {
+  animation-delay: 2s;
+}
+
+.delay-3 {
+  animation-delay: 2.5s;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
