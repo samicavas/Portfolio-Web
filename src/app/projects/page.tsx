@@ -129,6 +129,96 @@ const projects = [
       'Rxjs as Angular',
       'Other technologies: Raspberry PI, Orange PI'
     ]
+  },
+  {
+    title: 'KLINIK365',
+    company: 'PIYONSOFT PROJECT',
+    duration: 'September 2022 - October 2022',
+    technologies: [
+      'Angular',
+      'C#',
+      'Rxjs',
+      'MsSQL'
+    ],
+    description: [
+      'Angular as frontend technology',
+      'C# as backend technology',
+      'Rxjs as Angular',
+      'Other technologies: MsSQL'
+    ]
+  },
+  {
+    title: 'BLOKPORT SAAS WEB APP',
+    company: 'SMARTOVER PROJECT',
+    duration: 'February 2022 - August 2022',
+    technologies: [
+      'Angular',
+      'Nestjs',
+      'Ngrx',
+      'Rxjs',
+      'HeidiSQL',
+      'Sendgrid',
+      'Firebase'
+    ],
+    description: [
+      'Angular as frontend technology',
+      'Nestjs as backend technology',
+      'Ngrx and Rxjs as Angular',
+      'Other technologies: HeidiSQL, Sendgrid, Firebase'
+    ]
+  },
+  {
+    title: 'BIYOKIMYA KONGRESI APP',
+    company: 'SMARTOVER PROJECT',
+    duration: 'May 2022 - June 2022',
+    technologies: [
+      'React Native',
+      'Mobx',
+      'MySQL'
+    ],
+    description: [
+      'React Native as mobile programming technology',
+      'Mobx as state management',
+      'Using the latest version packages',
+      'Other technologies: MySQL'
+    ]
+  },
+  {
+    title: 'PEN MAIL APP',
+    company: 'INTERN PROJECT',
+    duration: 'August 2020 - September 2020',
+    technologies: [
+      'React Native',
+      'Mobx',
+      'formik',
+      'yup',
+      'react-navigation',
+      'webview'
+    ],
+    description: [
+      'React Native as mobile programming technology',
+      'Mobx as state management',
+      'Using the latest version packages',
+      'Using packages like formik, yup, react-navigation, webview etc.',
+      'Applying notifications with push notification',
+      'Publishing app in play store'
+    ]
+  },
+  {
+    title: 'SMARTHOME APP',
+    company: 'GRADUATION PROJECT',
+    duration: 'February 2020 - May 2020',
+    technologies: [
+      'React Native',
+      'Firebase',
+      'Raspberry PI',
+      'Python'
+    ],
+    description: [
+      'React Native as mobile programming technology',
+      'Firebase as database technology',
+      'Development of Raspberry pi control systems with Python'
+    ]
   }
 ];
 
