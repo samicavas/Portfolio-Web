@@ -54,6 +54,12 @@ const translations = {
     'about.experience': 'Deneyim ve Yaklaşımım',
     'about.experience.p1': '4 yıllık profesyonel deneyimimde, çeşitli ölçeklerde projeler geliştirdim. Her projede kullanıcı deneyimini ön planda tutarak, modern ve sürdürülebilir çözümler üretmeye odaklanıyorum. Yazılım geliştirme sürecinde clean code prensiplerini benimseyerek, okunabilir ve bakımı kolay kod yazmaya özen gösteriyorum.',
     'about.experience.p2': 'Sürekli öğrenme ve kendimi geliştirme konusunda tutkulu bir yaklaşımım var. Yeni teknolojileri takip ediyor, öğreniyor ve projelerimde uygun olanları kullanıyorum. Ayrıca, açık kaynak projelere katkıda bulunmayı ve teknoloji topluluklarıyla etkileşimde bulunmayı seviyorum.',
+    'projects.title': 'Projeler',
+    'projects.current': 'Güncel',
+    'projects.technologies': 'Kullanılan Teknolojiler',
+    'projects.duration': 'Süre',
+    'projects.present': 'Devam Ediyor',
+    'projects.description': 'Açıklama',
   },
   en: {
     'nav.home': 'Home',
@@ -98,6 +104,12 @@ const translations = {
     'about.experience': 'Experience and Approach',
     'about.experience.p1': 'In my 4 years of professional experience, I have developed projects of various scales. I focus on producing modern and sustainable solutions while prioritizing user experience in every project. I embrace clean code principles in the software development process, taking care to write readable and maintainable code.',
     'about.experience.p2': 'I have a passionate approach to continuous learning and self-improvement. I follow and learn new technologies and use appropriate ones in my projects. I also enjoy contributing to open source projects and engaging with technology communities.',
+    'projects.title': 'Projects',
+    'projects.current': 'Current',
+    'projects.technologies': 'Technologies Used',
+    'projects.duration': 'Duration',
+    'projects.present': 'Present',
+    'projects.description': 'Description',
   }
 };
 
