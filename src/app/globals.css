@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Typewriter Effect */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40, end);
+  width: 0;
+  animation-fill-mode: forwards;
+}
+
+.typewriter.delay-1 {
+  animation-delay: 1s;
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -16,13 +29,6 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.typewriter {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 0;
-  animation: typing 2s steps(40, end) forwards;
 }
 
 .slide-up {
@@ -40,6 +46,22 @@
 
 .delay-3 {
   animation-delay: 2.5s;
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-right {
+  opacity: 0;
+  animation: slideRight 0.8s ease forwards;
 }
 
 :root {

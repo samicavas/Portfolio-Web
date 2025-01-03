@@ -14,17 +14,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            <h1 className="inline-block text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 typewriter">
               {t('hero.greeting')}
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8">
+            <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 typewriter delay-1">
               {t('hero.title')}
             </p>
           </div>
 
           {/* Bio Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="space-y-6 slide-up delay-2">
+            <div className="space-y-6 slide-right delay-3">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
                 {t('bio.title')}
               </h2>
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
 
             {/* Stats Section */}
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 slide-up delay-3">
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 slide-up delay-2">
               <div className="grid grid-cols-2 gap-8">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">5+</div>
