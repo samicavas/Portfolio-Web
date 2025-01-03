@@ -5,16 +5,16 @@ export async function POST(request: Request) {
   try {
     const { name, email, message } = await request.json();
 
-    // E-posta gönderme işlemi için transporter oluştur
+    // e-mail sending process
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.EMAIL_USER, // Gmail hesabınız
-        pass: process.env.EMAIL_PASS  // Gmail uygulama şifresi
+        user: process.env.EMAIL_USER, // your email
+        pass: process.env.EMAIL_PASS  // your app password
       }
     });
 
-    // E-posta içeriğini oluştur
+    // e-mail content
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: 'furkan.sami123@gmail.com',
@@ -33,7 +33,7 @@ export async function POST(request: Request) {
       `
     };
 
-    // E-postayı gönder
+    // send e-mail
     await transporter.sendMail(mailOptions);
 
     return NextResponse.json({ message: 'Email sent successfully' }, { status: 200 });

@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Scroll pozisyonunu kontrol et
+  // Check scroll position
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
       setIsVisible(true);
@@ -14,7 +14,7 @@ const ScrollToTop = () => {
     }
   };
 
-  // Yukarı çık fonksiyonu
+  // To Up function
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

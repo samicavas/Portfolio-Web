@@ -22,7 +22,7 @@ const Header = () => {
             </Link>
           </div>
 
-          {/* Masaüstü Menü */}
+          {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-8">
               <Link href="/" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
@@ -68,7 +68,7 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Mobil Menü Butonu */}
+          {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center space-x-4">
             <div className="flex items-center space-x-4">
               {/* Language Toggle Button */}
@@ -123,7 +123,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobil Menü */}
+        {/* Mobile Menu */}
         <div 
           className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
             isMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
