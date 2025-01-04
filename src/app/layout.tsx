@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Jost } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { LanguageProvider } from "@/context/LanguageContext";
 import ScrollToTop from "@/components/ScrollToTop";
 
-const inter = Inter({ subsets: ["latin"] });
+const jost = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sami Çavaş",
@@ -32,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body className={`${inter.className} transition-colors duration-200`}>
+      <body className={`${jost.className} transition-colors duration-200`}>
         <ThemeProvider>
           <LanguageProvider>
             {children}
