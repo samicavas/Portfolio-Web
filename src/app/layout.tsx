@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { LanguageProvider } from "@/context/LanguageContext";
 import ScrollToTop from "@/components/ScrollToTop";
+import CustomCursor from "@/components/CustomCursor";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -37,6 +38,7 @@ export default function RootLayout({
           <LanguageProvider>
             {children}
             <ScrollToTop />
+            <CustomCursor />
           </LanguageProvider>
         </ThemeProvider>
       </body>
