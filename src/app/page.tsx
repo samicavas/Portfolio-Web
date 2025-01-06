@@ -13,11 +13,11 @@ export default function Home() {
       <div className="flex-grow pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="text-center">
+          <div className="text-center align-middle justify-center flex flex-col items-center">
             <h1 className="inline-block text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 typewriter">
               {t('hero.greeting')}
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 typewriter delay-1">
+            <p className="inline-block text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 typewriter delay-1">
               {t('hero.title')}
             </p>
           </div>
