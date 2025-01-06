@@ -143,3 +143,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Fade-in ve blur animasyonu */
+@keyframes fadeInBlur {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.fade-in-blur {
+  opacity: 0;
+  animation: fadeInBlur 1s ease forwards;
+}
+
+.delay-4 {
+  animation-delay: 3s;
+}

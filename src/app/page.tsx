@@ -79,7 +79,7 @@ export default function Home() {
           <div className="text-center">
             <a
               href="/contact"
-              className="inline-block bg-gray-900 dark:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors"
+              className="inline-block bg-gray-900 dark:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors fade-in-blur delay-4"
             >
               {t('cta.contact')}
             </a>
