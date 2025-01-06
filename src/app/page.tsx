@@ -23,7 +23,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6 slide-right delay-2">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-                {t('bio.title')}aa
+                {t('bio.title')}
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300">
                 <p>{t('bio.p1')}</p>
