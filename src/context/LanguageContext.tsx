@@ -133,7 +133,7 @@ const translations = {
     'projects.description': 'Description',
     'cookies.description.part1': 'This website uses cookies to ensure you get the best experience.',
     'cookies.description.part2': 'For more information about our cookie usage, please read our',
-    'cookies.description.part3': '',
+    'cookies.description.part3': ' ',
     'cookies.policy': 'privacy policy',
     'cookies.accept': "Accept",
     'cookies.reject': "Reject",
