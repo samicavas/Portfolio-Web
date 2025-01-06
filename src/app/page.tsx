@@ -24,9 +24,9 @@ export default function Home() {
 
           {/* Bio Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="space-y-6 slide-right delay-3">
+            <div className="space-y-6 slide-right delay-2">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-                {t('bio.title')}
+                {t('bio.title')}aa
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300">
                 <p>{t('bio.p1')}</p>
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
 
             {/* Stats Section */}
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 slide-up delay-2">
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 slide-up delay-3">
               <div className="grid grid-cols-2 gap-8">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">5+</div>
@@ -86,7 +86,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </main>
   );
 }

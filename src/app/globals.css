@@ -122,6 +122,10 @@
   animation: slideRight 0.8s ease forwards;
 }
 
+.delay-2 {
+  animation-delay: 2s;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
