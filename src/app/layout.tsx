@@ -3,10 +3,12 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { LanguageProvider } from "@/context/LanguageContext";
+import { CookieProvider } from "@/context/CookieContext";
 import ScrollToTop from "@/components/ScrollToTop";
 import CustomCursor from "@/components/CustomCursor";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CookieBanner from "@/components/CookieBanner";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -38,11 +40,14 @@ export default function RootLayout({
       <body className={`${jost.className} transition-colors duration-200`}>
         <ThemeProvider>
           <LanguageProvider>
-            <Header />
-            {children}
-            <Footer />
-            <ScrollToTop />
-            <CustomCursor />
+            <CookieProvider>
+              <Header />
+              {children}
+              <Footer />
+              <ScrollToTop />
+              <CustomCursor />
+              <CookieBanner />
+            </CookieProvider>
           </LanguageProvider>
         </ThemeProvider>
       </body>
