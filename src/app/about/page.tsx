@@ -1,37 +1,14 @@
 'use client';
 
 import { useLanguage } from '@/context/LanguageContext';
-import { useRouter } from 'next/navigation';
 
 export default function About() {
   const { t } = useLanguage();
-  const router = useRouter();
 
   return (
     <main className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-24 pb-16">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
-          <button
-            onClick={() => router.push('/')}
-            className="mb-6 flex items-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 19l-7-7m0 0l7-7m-7 7h18"
-              />
-            </svg>
-            {t('nav.home')}
-          </button>
-
           <div className="space-y-8">
             {/* Kişisel Bilgiler */}
             <section>
