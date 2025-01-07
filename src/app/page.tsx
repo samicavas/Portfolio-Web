@@ -53,15 +53,15 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 slide-up delay-3">
               <div className="grid grid-cols-2 gap-8">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">5+</div>
+                  <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">4+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">{t('stats.experience')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">50+</div>
+                  <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">12+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">{t('stats.projects')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">20+</div>
+                  <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">5+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">{t('stats.clients')}</div>
                 </div>
                 <div className="text-center">
