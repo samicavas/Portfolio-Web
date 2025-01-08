@@ -37,7 +37,7 @@ export default function Home() {
                   {t('tech.title')}
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {['TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'Docker', 'AWS', 'PostgreSQL', 'MongoDB', 'Redis'].map((tech) => (
+                  {['TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'Firebase', 'React Native', 'Angular', 'PostgreSQL', 'MongoDB'].map((tech) => (
                     <span
                       key={tech}
                       className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium"
