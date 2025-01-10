@@ -13,21 +13,33 @@ import CookieBanner from "@/components/CookieBanner";
 const jost = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sami Çavaş",
-  description: "Portfolio Website",
-  icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/web-app-manifest-192x192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/web-app-manifest-512x512.png', sizes: '512x512', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
+  title: 'Furkan Sami Çavaş | Full Stack Developer',
+  description: 'Full Stack Geliştirici ve Bilgisayar Mühendisi. React, Next.js, Angular, React Native ve NestJS teknolojilerinde uzmanlaşmış yazılım geliştiricisi.',
+  keywords: 'Full Stack Developer, Software Engineer, React, Next.js, Angular, React Native, NestJS, TypeScript, JavaScript',
+  openGraph: {
+    title: 'Furkan Sami Çavaş | Full Stack Developer',
+    description: 'Full Stack Geliştirici ve Bilgisayar Mühendisi. React, Next.js, Angular, React Native ve NestJS teknolojilerinde uzmanlaşmış yazılım geliştiricisi.',
+    url: 'https://samicavas.com',
+    siteName: 'Furkan Sami Çavaş Portfolio',
+    locale: 'tr_TR',
+    type: 'website',
   },
-  manifest: '/site.webmanifest',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  twitter: {
+    title: 'Furkan Sami Çavaş | Full Stack Developer',
+    description: 'Full Stack Geliştirici ve Bilgisayar Mühendisi. React, Next.js, Angular, React Native ve NestJS teknolojilerinde uzmanlaşmış yazılım geliştiricisi.',
+    card: 'summary_large_image',
+  },
 };
 
 export default function RootLayout({
@@ -37,6 +49,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://samicavas.com" />
+      </head>
       <body className={`${jost.className} transition-colors duration-200`}>
         <ThemeProvider>
           <LanguageProvider>
