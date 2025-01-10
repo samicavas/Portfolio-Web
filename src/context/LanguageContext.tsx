@@ -80,7 +80,66 @@ const translations = {
     'cookie.policy.types.preferences.title': "Tercih Çerezleri",
     'cookie.policy.types.preferences.description': "Bu çerezler, dil ve tema gibi tercihlerinizi hatırlamamıza yardımcı olur.",
     'cookie.policy.control.title': "Çerezleri Nasıl Kontrol Edebilirim?",
-    'cookie.policy.control.description': "Tarayıcı ayarlarınızdan çerezleri yönetebilir veya silebilirsiniz. Ancak, çerezleri devre dışı bırakmak bazı özelliklerin çalışmamasına neden olabilir."
+    'cookie.policy.control.description': "Tarayıcı ayarlarınızdan çerezleri yönetebilir veya silebilirsiniz. Ancak, çerezleri devre dışı bırakmak bazı özelliklerin çalışmamasına neden olabilir.",
+    'projects.portfolio.title': 'Kişisel Portfolyo Web Sitesi',
+    'projects.portfolio.duration': 'Aralık 2023',
+    'projects.portfolio.description': 'Modern ve kullanıcı dostu bir portfolyo web sitesi. Next.js 14, TypeScript ve Tailwind CSS kullanılarak geliştirildi. Çoklu dil desteği, karanlık/aydınlık tema, responsive tasarım ve SEO optimizasyonu gibi özellikler içeriyor.',
+    'projects.portfolio.technologies': 'Next.js 14, TypeScript, Tailwind CSS, React, Vercel',
+    
+    'projects.tipsvs.title': 'TipsVS Mobil Uygulaması',
+    'projects.tipsvs.duration': 'Kasım 2023 - Devam Ediyor',
+    'projects.tipsvs.description': 'React Native kullanılarak geliştirilen mobil uygulama. Redux ve Context API ile state yönetimi, React Hook Form ile form yönetimi, Firebase Cloud Messaging ile bildirimler, Socket.IO ile gerçek zamanlı iletişim gibi özellikler içeriyor.',
+    'projects.tipsvs.technologies': 'React Native, Redux, Context API, React Hook Form, Firebase Cloud Messaging, Socket.IO',
+    
+    'projects.bookreen.title': 'BOOKREEN',
+    'projects.bookreen.duration': 'Mayıs 2023 - Eylül 2023',
+    'projects.bookreen.description': 'React Native ile geliştirilen, harita entegrasyonu, sohbet sistemi, çoklu dil desteği ve tema modu gibi özellikler içeren mobil uygulama.',
+    'projects.bookreen.technologies': 'React Native, Redux, React Navigation, Maps, Chat System, Tailwind CSS',
+    
+    'projects.digitalcard.title': 'Dijital Kart Uygulaması',
+    'projects.digitalcard.duration': 'Ağustos 2023 - Eylül 2023',
+    'projects.digitalcard.description': 'Angular ve IFS kullanılarak geliştirilen dijital kart uygulaması. NFC teknolojisi entegrasyonu içeriyor.',
+    'projects.digitalcard.technologies': 'Angular, IFS, Ngrx, Rxjs, NFC',
+    
+    'projects.educationport.title': 'Eğitim Portalı',
+    'projects.educationport.duration': 'Ocak 2022 - Eylül 2023',
+    'projects.educationport.description': 'Angular frontend ve C# backend ile geliştirilen eğitim portalı. Firebase entegrasyonu ve gelişmiş state yönetimi içeriyor.',
+    'projects.educationport.technologies': 'Angular, C# Entity Framework, Ngrx, Rxjs, Firebase',
+
+    'projects.processtracking.title': 'Süreç Takibi ve Evrak İşlemleri',
+    'projects.processtracking.duration': 'Ekim 2022 - Ağustos 2023',
+    'projects.processtracking.description': 'Javascript frontend ve C# backend ile geliştirilen süreç takip sistemi. IFS ve GecoTime entegrasyonları ile evrak işlemlerinin yönetimi.',
+    'projects.processtracking.technologies': 'Javascript, IFS, GecoTime, C#, Paperwork',
+
+    'projects.meetinginfo.title': 'Toplantı Bilgi Ekranları',
+    'projects.meetinginfo.duration': 'Ekim 2022 - Kasım 2022',
+    'projects.meetinginfo.description': 'Angular ile geliştirilen toplantı bilgi ekranları sistemi. Azure Cloud altyapısı ve Raspberry PI/Orange PI donanımları ile entegre çalışan sistem.',
+    'projects.meetinginfo.technologies': 'Angular, Azure Cloud, Rxjs, Raspberry PI, Orange PI',
+
+    'projects.klinik365.title': 'KLINIK365',
+    'projects.klinik365.duration': 'Eylül 2022 - Ekim 2022',
+    'projects.klinik365.description': 'Angular frontend ve C# backend ile geliştirilen klinik yönetim sistemi. MsSQL veritabanı entegrasyonu.',
+    'projects.klinik365.technologies': 'Angular, C#, Rxjs, MsSQL',
+
+    'projects.blokport.title': 'BLOKPORT SAAS Web Uygulaması',
+    'projects.blokport.duration': 'Şubat 2022 - Ağustos 2022',
+    'projects.blokport.description': 'Angular frontend ve NestJS backend ile geliştirilen SAAS web uygulaması. Firebase, Sendgrid ve HeidiSQL entegrasyonları.',
+    'projects.blokport.technologies': 'Angular, Nestjs, Ngrx, Rxjs, HeidiSQL, Sendgrid, Firebase',
+
+    'projects.biyokimya.title': 'Biyokimya Kongresi Uygulaması',
+    'projects.biyokimya.duration': 'Mayıs 2022 - Haziran 2022',
+    'projects.biyokimya.description': 'React Native ile geliştirilen mobil uygulama. Mobx state yönetimi ve MySQL veritabanı entegrasyonu.',
+    'projects.biyokimya.technologies': 'React Native, Mobx, MySQL',
+
+    'projects.penmail.title': 'PEN Mail Uygulaması',
+    'projects.penmail.duration': 'Ağustos 2020 - Eylül 2020',
+    'projects.penmail.description': 'React Native ile geliştirilen mail uygulaması. Form yönetimi, navigasyon, bildirimler ve webview entegrasyonları içeriyor.',
+    'projects.penmail.technologies': 'React Native, Mobx, Formik, Yup, React Navigation, WebView',
+
+    'projects.smarthome.title': 'Akıllı Ev Uygulaması',
+    'projects.smarthome.duration': 'Şubat 2020 - Mayıs 2020',
+    'projects.smarthome.description': 'React Native ile geliştirilen mobil uygulama. Firebase veritabanı ve Raspberry PI kontrol sistemleri entegrasyonu.',
+    'projects.smarthome.technologies': 'React Native, Firebase, Raspberry PI, Python',
   },
   en: {
     'nav.home': 'Home',
@@ -151,7 +210,66 @@ const translations = {
     'cookie.policy.types.preferences.title': "Preference Cookies",
     'cookie.policy.types.preferences.description': "These cookies help us remember your preferences such as language and theme.",
     'cookie.policy.control.title': "How Can I Control Cookies?",
-    'cookie.policy.control.description': "You can manage or delete cookies through your browser settings. However, disabling cookies may cause some features to stop working."
+    'cookie.policy.control.description': "You can manage or delete cookies through your browser settings. However, disabling cookies may cause some features to stop working.",
+    'projects.portfolio.title': 'Personal Portfolio Website',
+    'projects.portfolio.duration': 'December 2023',
+    'projects.portfolio.description': 'A modern and user-friendly portfolio website. Developed using Next.js 14, TypeScript, and Tailwind CSS. Features include multi-language support, dark/light theme, responsive design, and SEO optimization.',
+    'projects.portfolio.technologies': 'Next.js 14, TypeScript, Tailwind CSS, React, Vercel',
+    
+    'projects.tipsvs.title': 'TipsVS Mobile Application',
+    'projects.tipsvs.duration': 'November 2023 - Present',
+    'projects.tipsvs.description': 'Mobile application developed using React Native. Features include state management with Redux and Context API, form management with React Hook Form, notifications with Firebase Cloud Messaging, and real-time communication with Socket.IO.',
+    'projects.tipsvs.technologies': 'React Native, Redux, Context API, React Hook Form, Firebase Cloud Messaging, Socket.IO',
+    
+    'projects.bookreen.title': 'BOOKREEN',
+    'projects.bookreen.duration': 'May 2023 - September 2023',
+    'projects.bookreen.description': 'Mobile application developed with React Native, featuring map integration, chat system, multi-language support, and theme mode.',
+    'projects.bookreen.technologies': 'React Native, Redux, React Navigation, Maps, Chat System, Tailwind CSS',
+    
+    'projects.digitalcard.title': 'Digital Card Application',
+    'projects.digitalcard.duration': 'August 2023 - September 2023',
+    'projects.digitalcard.description': 'Digital card application developed using Angular and IFS. Features NFC technology integration.',
+    'projects.digitalcard.technologies': 'Angular, IFS, Ngrx, Rxjs, NFC',
+    
+    'projects.educationport.title': 'Education Portal',
+    'projects.educationport.duration': 'January 2022 - September 2023',
+    'projects.educationport.description': 'Education portal developed with Angular frontend and C# backend. Includes Firebase integration and advanced state management.',
+    'projects.educationport.technologies': 'Angular, C# Entity Framework, Ngrx, Rxjs, Firebase',
+
+    'projects.processtracking.title': 'Process Tracking with Paperwork',
+    'projects.processtracking.duration': 'October 2022 - August 2023',
+    'projects.processtracking.description': 'Process tracking system developed with Javascript frontend and C# backend. Document management with IFS and GecoTime integrations.',
+    'projects.processtracking.technologies': 'Javascript, IFS, GecoTime, C#, Paperwork',
+
+    'projects.meetinginfo.title': 'Meeting Info Screens',
+    'projects.meetinginfo.duration': 'October 2022 - November 2022',
+    'projects.meetinginfo.description': 'Meeting information screens system developed with Angular. System integrated with Azure Cloud infrastructure and Raspberry PI/Orange PI hardware.',
+    'projects.meetinginfo.technologies': 'Angular, Azure Cloud, Rxjs, Raspberry PI, Orange PI',
+
+    'projects.klinik365.title': 'KLINIK365',
+    'projects.klinik365.duration': 'September 2022 - October 2022',
+    'projects.klinik365.description': 'Clinic management system developed with Angular frontend and C# backend. MsSQL database integration.',
+    'projects.klinik365.technologies': 'Angular, C#, Rxjs, MsSQL',
+
+    'projects.blokport.title': 'BLOKPORT SAAS Web App',
+    'projects.blokport.duration': 'February 2022 - August 2022',
+    'projects.blokport.description': 'SAAS web application developed with Angular frontend and NestJS backend. Firebase, Sendgrid, and HeidiSQL integrations.',
+    'projects.blokport.technologies': 'Angular, Nestjs, Ngrx, Rxjs, HeidiSQL, Sendgrid, Firebase',
+
+    'projects.biyokimya.title': 'Biochemistry Congress App',
+    'projects.biyokimya.duration': 'May 2022 - June 2022',
+    'projects.biyokimya.description': 'Mobile application developed with React Native. Mobx state management and MySQL database integration.',
+    'projects.biyokimya.technologies': 'React Native, Mobx, MySQL',
+
+    'projects.penmail.title': 'PEN Mail App',
+    'projects.penmail.duration': 'August 2020 - September 2020',
+    'projects.penmail.description': 'Mail application developed with React Native. Includes form management, navigation, notifications, and webview integrations.',
+    'projects.penmail.technologies': 'React Native, Mobx, Formik, Yup, React Navigation, WebView',
+
+    'projects.smarthome.title': 'Smart Home App',
+    'projects.smarthome.duration': 'February 2020 - May 2020',
+    'projects.smarthome.description': 'Mobile application developed with React Native. Firebase database and Raspberry PI control systems integration.',
+    'projects.smarthome.technologies': 'React Native, Firebase, Raspberry PI, Python',
   }
 };
 
